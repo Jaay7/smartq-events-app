@@ -142,7 +142,7 @@ const Pizza = (props) => {
                     </FormControl>
                   </div>
                   <div>
-                    {Object.keys(data.data.submenu) == item.submenu ? <>
+                    {Object.keys(data.data.submenu) === item.submenu ? <>
                       {data.data.submenu[item.submenu].map(subitem => (
                         <Checkbox 
                         checked={checked.indexOf(subitem) !== -1}

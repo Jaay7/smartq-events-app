@@ -2,7 +2,7 @@ import React from 'react';
 import { BrowserRouter, Route, Routes, Navigate } from "react-router-dom";
 import { useDispatch, useSelector } from 'react-redux';
 import DataService from './service/DataService';
-import Home from './components/Home';
+// import Home from './components/Home';
 import Categories from './components/Categories';
 import Cart from './components/Cart';
 import Consumables from './components/Categories/Consumables';
